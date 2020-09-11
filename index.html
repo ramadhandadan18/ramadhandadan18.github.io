@@ -579,7 +579,7 @@
                                         out the form below and I will reply you shortly.
                                     </p>
                                 </div>
-                                <form class="contactform" method="post" action="contactform.php">
+                                <form action="mailto:ramadhanrsa18@gmail.com" method="post" enctype="text/plain">
                                     <!-- Name Field Starts -->
                                     <div class="input-field second-font">
                                         <i class="fa fa-user prefix"></i>
@@ -590,21 +590,21 @@
                                     <!-- Email Field Starts -->
                                     <div class="input-field second-font">
                                         <i class="fa fa-envelope prefix"></i>
-                                        <input id="email" type="email" name="email" class="validate" required>
+                                        <input id="email" type="text" name="email" class="validate" required>
                                         <label for="email">Your Email</label>
                                     </div>
                                     <!-- Email Field Ends -->
                                     <!-- Comment Textarea Starts -->
                                     <div class="input-field second-font">
                                         <i class="fa fa-comments prefix"></i>
-                                        <textarea id="comment" name="comment" class="materialize-textarea"
-                                            required></textarea>
+                                        <input id="comment" name="comment" type="text"
+                                            class="materialize-textarea"></input>
                                         <label for="comment">Your Comment</label>
                                     </div>
                                     <!-- Comment Textarea Ends -->
                                     <!-- Submit Form Button Starts -->
                                     <div class="col s12 m12 l9 xl8 submit-form">
-                                        <button class="btn font-weight-700" type="submit" name="send">
+                                        <button class="btn font-weight-700" type="submit" value="Send">
                                             Send Message <i class="fa fa-send"></i>
                                         </button>
                                     </div>
